@@ -23,15 +23,21 @@ GitHub is what is known as a Git repository hosting service. In contrast to GIT,
 
 One of the key features of GitHub, is forking, which allows users to copy of the code of other programmers. These facilitates collaboration and improves the ability of programmers to work in groups. 
 
-
-
-
-
-
-
-
 ####Q2. What are the most important aspects of quality software?
 
+Software is an invasive force within modernity. It is for this reason that quality in terms of software is so critical. In terms of the most important aspects of quality software I would argue that reliability, security, modifiability, testability, efficiency and maintainability are most critical. 
+
+Reliability, is the notion that the software that we create or interact with behaves in logical and consistent ways.  For our users, this means that they interact with the software in a seamless reliable way. For example, Errors should be handled and our programs should run in a consistent manner.
+
+Security, is a metric by which we can assess the ability of our software to be protected against potential security breaches. This metric can be measured against the number and seriousness of the vulnerabilities found within software. Poor security is often the result of poor coding and overall weaknesses within the structures of our software. For example, not having proper user authentication which can make certain aspects of our application susceptible to security breaches. 
+
+Modifiability, this is the idea by which it should be easy to change, add, update or delete elements within our software. In highly modifiable software, we are able to alter the performance of our applications with minimal changes to our programs code. For example, the ability to change what renders to our screens through the use of components in react over not using components and hardcoding each line of code. 
+
+Testability, is the idea that our code should be easily testable in order to verify its functionality. Automated testing is an important aspect of the testability of a program. Each feature that we implement within our programs should be easily testable. We should also be able to verify that our programs are running as expected.  For example, we should run each component of our applications that contains logic through tests to insure that our program performs as we anticipate. 
+
+Efficiency, is the use of as few resources as possible. Our programs should not have an excess of code and run as fast as possible. We should minimise API, database and external calls as much as possible. Efficiency can be seen as the antithesis of code bloat. It is similar in notion to the DRY principle in coding in that we want to be as efficient was possible with our software. 
+
+Maintainability, is the easy by which we are able to upkeep our code. This includes the easy by which we can modify, adapt or alter our software. Software maintainability can be achieved by following company regulations and coding conventions. For example, insuring that proper indenting is applied makes ones code easier for other developers to use and therefore makes the code more maintainable over the long run. 
 
 ####Q3. Outline a standard high level structure for a MERN stack application and explain the components
 
@@ -64,3 +70,12 @@ One of the key features of GitHub, is forking, which allows users to copy of the
 
 
 ####Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
+
+
+####Sources For Assessment
+1. https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/
+2. https://www.atlassian.com/git/tutorials/what-is-git
+3.
+4.
+5.
+6.
