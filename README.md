@@ -41,6 +41,23 @@ Maintainability, is the easy by which we are able to upkeep our code. This inclu
 
 ####Q3. Outline a standard high level structure for a MERN stack application and explain the components
 
+What is a ‘stack?’ 
+
+Put simply, a stack is the totality of the technologies and softwares one uses in order to create a functional web application. 
+
+What is the ‘MERN’ stack?
+
+There MERN stack is a JavaScript based stack that helps us developers make smooth and functional web applications. The MERN stack is comprised of four open-source elements. MongoDB, Express, REACT and Node.JS. 
+
+Various Elements of the MERN stack Itself. 
+
+MongoDB is a document based NoSQL database in which we can store data for later use. MongoDB is free to use. MongoDB stores data in JSON like documents. This allows our data structure to change over time. This is in contrast to other databases which store date using the row/column model. The high level components of MongoDB are the following: The database: This is where our data is stored. Each database has its own unique set of files. Multiple databases exist one a single MongoDB server.The collections: These are a groups of database documents. Our collections exist within a single database. Inside our collection, we can have a number of documents with a number of fields. However, for the most part. Our documents contained within our collect should have the same purpose. Documents: Our documents are a set of key-value pairs. Not unlike an object in Javascript. Our documents have dynamic schemas. This means that the documents with our collections don’t necessarily have to have the same structure or even contain the same data types. 
+
+Express is fast, unopinionated, web framework for Node.js (according to express!). Express is an example of open sourced software and it built for the development of mobile and web applications. Express makes our lives as developers easier by making things more simple and improves our functionality by providing us access to HTTP utility methods and various middleware. Dynamic routes are straightforward, everything is better organised and it’s easier to implement validation and access the body of our HTTP requests. 
+
+React is the front-end of the MERN stack. With REACT we can create single page applications (SPA) that renders content. React works by the creation of various functional and class components that are build and utilised through the use JSX and JS. We can pull any data we want for our database through the linkage of our REACT software to our NODE software. 
+
+Node.JS is part of the backend of a MERN stack based build and works in tandem with our database (MONGODB). It is within Node.js where we set up the MERN stack and the MVC. We also use note to set up authentication for our website throughout the use of cookies and sessions. 
 
 ####Q4. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
