@@ -143,7 +143,12 @@ Now back to the  assessment,
 
 Control flow is the method programmers use to control the order in which are statements, functions and instructions are exectued and or evaluated. We can look at control flow as a road, with different choices stemming from this road based on which path our program ends up taking. For example, 
 
-The following answer can be, found in my programmingsolution.js file as the first entry from lines 1 to 56. 
+The following answer can be, found in my programmingsolutions.js file as the first entry from lines 1 to 56. 
+
+![image](./images/Q7.CONTROLFLOW1.png)
+![image](./images/Q7.CONTROLFLOW2.png)
+
+
 
 ####Q8. Explain type coercion, using examples from the JavaScript programming language
 
