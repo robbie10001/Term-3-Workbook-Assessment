@@ -44,9 +44,61 @@ Maintainability, is the easy by which we are able to upkeep our code. This inclu
 
 ####Q4. A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
+As with any build, the purpose of the build and how to achieve this is always the first consideration one must have when building an application. A website for a small business could be build any number of different ways. Given, my own experience, I would likely use either Ruby on Rails or the MERN stack. In this example, I will use the MERN stack. 
+
+Knowledge
+
+The first thing I would do once given a brief, would be to break down what is the purpose of the build and what is the required features that the build requires in order to for me to deliver a viable product. I would articulate this need by creating documentation. 
+
+Documentation- 
+* What is the current problem with the website? 
+* What is the overall goal we are trying to achieve in building a new website for this company?
+* What is the purpose of our build
+* What features to do need to implement?
+* What functionality does the website need?
+* Who is the target audience for our build?
+* Create wireframes 
+* Create sitemap
+* What tech stack do we need to implement in order for our website to function as desired? 
+* Our will our database work? 
+* What are the high-level components of our application?
+*  Do we need to use any third party services to deliver our project?
+* How can we effectively implement the waterfall methodology in order to maximise our efficiency and deliver the best quality product to our customer? 
+* ERD
+People Management - 
+* How can we effectively allocate the resources of our team to effectively  deliver our build? 
+* What skills do we have?
+* What skills do we need to learn? 
+* What responsibilities do we each have in terms of the overall build? 
+* Have stand-up meeting in the morning in order to efficiently allocate personal and to monitor our project. 
+
+Skills 
+
+In order to build a project we will require adequate skills of the MERN stack.
+
+* What components do we need? 
+* How are we going to implement our design for our website?
+* Are there any Apis that we can use? 
+* How best to implement our designs? 
+* What data do we need in our database? 
+* How are we going to structure our database? 
+* Is our ERD suitable? 
+* We need to link our express and react together. 
+* We can use node for testing our code
+* We can use node in the development of our application. 
 
 ####Q5. With reference to one of your own projects, discuss what knowledge or skills were required to complete your project, and to overcome challenges
 
+In terms of this course, the largest build I’ve had to do so far is our two-sided marketplace application build using Ruby on Rails. For my build, i decided to make a trading platform for Australian coinage minted between 1901 and modernity. On the back of our previous assessments, a terminal application, a static website and a workbook this was a major build. 
+
+Initially, my philosophy was to start the build and get as much done and when I ran into trouble try and solve these problems. I think this philosophy was not best for a number of reasons. Firstly, Ruby on Rails is a convention based. By rushing into programming without focusing on prioritising Rails convention I becoming increasingly inefficient as the project continued. Had I followed the ‘Rails Magic’ this would not have been the case. Secondly, I decided to build and plan as I go. This was a major error. If I had spent more time focusing on the documentation that was required and improving my knowledge of the obvious hurdles I would come across I would have developed a far better application overall. 
+
+In terms of what knowledge was required to complete the project the following is my thoughts on the matter. 
+
+1. I needed an understanding of the RUBY programming language. Without this, any Ruby on Rails build is impossible to complete efficiently and effectively. 
+2. It was important to have an understanding of the Ruby on Rails architectural pattern, namely the MVC (model, view, controller). Without an adequate understanding of the MVC it’s impossible to use ’the rails magic’ also known as convention over configuration. 
+3. In order to implement wireframes and website design within the application, I was required to know HTML5 and CSS3. 
+4. In order to allow for payments and to implement security features within my website I required the use of various “gems”, which are akin to packages in Javascript. The one’s a used for my assessment where Devise (security), Heroku (deployment) and stripe (for payments). 
 
 ####Q6. With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
@@ -71,11 +123,13 @@ Maintainability, is the easy by which we are able to upkeep our code. This inclu
 
 ####Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
 
-
-####Sources For Assessment
+#####SOURCES 
 1. https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/
 2. https://www.atlassian.com/git/tutorials/what-is-git
-3.
-4.
-5.
-6.
+3. http://www.davidchappell.com/writing/white_papersThe_Three_Aspects_of_Software_Quality_v1.0-Chappell.pdf
+4. https://en.wikipedia.org/wiki/Software_quality#Introduction
+5. https://www.altexsoft.com/blog/engineering/what-software-quality-really-is-and-the-metrics-you-can-use-to-measure-it/
+6. https://blog.hyperiondev.com/index.php/2018/09/10/everything-need-know-mern-stack/
+7. https://www.mongodb.com/what-is-mongodb
+8. https://intellipaat.com/blog/what-is-mongodb/#_Architecture
+
