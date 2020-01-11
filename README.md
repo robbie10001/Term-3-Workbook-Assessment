@@ -149,9 +149,11 @@ The following answer can be, found in my programmingsolutions.js file as the fir
 ![image](./images/Q7.CONTROLFLOW2.png)
 
 
-
 ####Q8. Explain type coercion, using examples from the JavaScript programming language
 
+In computer programming, type coercion is the process by which we are able to change an expression from one data type to another. This gives us much more flexibility with the use of our data and allows us to construct more holistic and complex programs. 
+
+![image](./images/Q8.TYPECOERSION1.png)
 
 ####Q9. Explain data types, using examples from the JavaScript programming language
 

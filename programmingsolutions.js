@@ -53,3 +53,20 @@ switch (height) {
 //through the use of control flow we ended up only running the third element of our code. 
 //this is the data we then recieved through the use of control flow. 
 
+//Q8. Explain type coercion, using examples from the JavaScript programming language
+
+//through the use of type conversion we can convert data to a different data type. 
+//for example we can convert a number to a string and vise versa.
+//firstly, we create a number that is equal to 23;  
+let notANumber = 23;
+//we then create a new variable 
+//this variable converts the number 23 into the string "23" and saves its value
+let nowANumber = notANumber.toString()
+//we then use the typeof function to check what datatype our notANumber variable is
+//this prints out string 
+console.log(typeof nowANumber);
+console.log(nowANumber);
+//we also print out the value of nowANumber which is 23. 
+//Therefore, we have used type conversion to change the value of the number 23 to the string "23"
+
+//Example 2 
