@@ -102,6 +102,27 @@ In terms of what knowledge was required to complete the project the following is
 
 ####Q6. With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project, and suggest changes or improvements for future projects of a similar nature
 
+Given that I answered the previous questions using my Rails application as an example, it stands to reason that I should continue with this analysis. I feel that my skills allowed me to build an application that while not perfect was adequate for my coding experience. I think that given that I prioritised building the application rather than understanding the MVC architecture and the design I need to implement for my project i end up within unnecessary difficulties as my application became more and more cumbersome. 
+
+If I had followed Rails convention, and spend more time understanding the content initially, I think I would have got far more out of the project both from a knowledge standpoint and in terms of a final product. I think I also had a level of anxiety about my abilities which made me quick to give up on occasion. 
+
+If given my time again, I would firstly spend far more time on the design and implementation of the document component. This would have allowed me to better understand the needs of my project and gain the knowledge I required to implement these features. I would also have spent more time going over the Rails content from class, rather than just starting a build. It would have made sense to create a repo on GitHub where I used code examples with comments for the various elements and features I required for the project to be a success. I should have also asked Hamish to do more reviews. He was happy to do them and I think my pride was often a barrier to great educational obtainment. I didn’t want to feel like I was asking stupid questions and so forth. 
+
+I think that time management was not an issue for me per se. However, I would have been better advised to spend more time on accruing the knowledge I required for the assessment and would have benefited from a greater allocation of my time capital to documentation. 
+
+I think I did well at prioritisation. If I was able to find a solution that worked 99% of the time, I was happy with that given our time constraints. I would then make notes to refer back to the issue if time allowed. 
+
+
+Dearest of stern preceptors, i beg thee, take a break presently to admire some witticicisms from the 19th century. 
+
+1. "See here, wait, I've found a button in my salad." "That's all right, sir, it's part of the dressing."
+2. Who is the greatest chicken-killer in Shakespeare? Macbeth, because he did murder most foul.
+3. Why should the number 288 never be mentioned in company? Because it is two gross.
+4. Pawnbrokers prefer customers without any redeeming qualities.
+
+Now back to the  assessment, 
+
+
 
 ####Q7. Explain control flow, using an example from the JavaScript programming language
 
