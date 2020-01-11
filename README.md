@@ -153,9 +153,26 @@ The following answer can be, found in my programmingsolutions.js file as the fir
 
 In computer programming, type coercion is the process by which we are able to change an expression from one data type to another. This gives us much more flexibility with the use of our data and allows us to construct more holistic and complex programs. 
 
+We 
+The following answer can be, found in my programmingsolutions.js file as the first entry from lines 56 to 70. 
+
 ![image](./images/Q8.TYPECOERSION1.png)
 
 ####Q9. Explain data types, using examples from the JavaScript programming language
+
+In Javascript we have the following datatypes, 
+
+String- strings are just pieces of text, or strings of characters wrapped in quotes either (' ' or " ")
+Number- Unlike Ruby which has floats and integers, Javascript has only numbers. The number datatype in javascript, can be a positive number, negative number, integer or float. 
+Boolean- These are either true of false values. We can think of them as yes or no, or 1 or 0. 
+Null- Is the itentinal absense of value. The value is explicitly nothing. 
+Undefined- These are variables that do not have a value assigned to them. 
+Symbol- A symbol is a method for keeping data private and is for internal use only. They are often used to identify object properties. No Symbol is equal to any other symbol. 
+BigInt- A built-in object that allows us to represent large numbers that are to big to be held reliably by the numbers datatype. 
+
+This answer can be viewed from lines 72-95 in my programmingsolutions.js file 
+
+![image](./images/Q9.DATATYPES.png)
 
 
 ####Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language

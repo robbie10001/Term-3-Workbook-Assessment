@@ -58,15 +58,40 @@ switch (height) {
 //through the use of type conversion we can convert data to a different data type. 
 //for example we can convert a number to a string and vise versa.
 //firstly, we create a number that is equal to 23;  
-let notANumber = 23;
+let nowANumber = 23;
 //we then create a new variable 
 //this variable converts the number 23 into the string "23" and saves its value
-let nowANumber = notANumber.toString()
+let notANumber = nowANumber.toString()
 //we then use the typeof function to check what datatype our notANumber variable is
 //this prints out string 
-console.log(typeof nowANumber);
-console.log(nowANumber);
-//we also print out the value of nowANumber which is 23. 
-//Therefore, we have used type conversion to change the value of the number 23 to the string "23"
+console.log(typeof notANumber);
+console.log(notANumber);
+//we also print out the value of notANumber which is "23". 
+//Therefore, we have used type conversion to change the value of the number 23 to the string "23 "
 
-//Example 2 
+//Q9. Explain data types, using examples from the JavaScript programming language
+
+//string 
+let thisIsAString = "Hello World"; 
+console.log(typeof thisIsAString); //string
+
+let thisIsANumber = 23; 
+console.log(typeof thisIsANumber); //number
+
+let thisIsABoolean = true; 
+console.log(typeof thisIsABoolean); //boolean 
+
+let thisIsNull = null; 
+console.log(typeof thisIsNull); //this returns object, but this is the result of legacy, rather than the truth. 
+
+let thisIsUndefined = undefined; 
+console.log(typeof thisIsUndefined); //undefined 
+
+let thisIsASymbol = Symbol(); 
+console.log(typeof thisIsASymbol); //symbol 
+
+let thisIsBigInt = BigInt(1000000000 ^ 1000000000);
+console.log(typeof thisIsBigInt) // BigInt 
+
+
+
