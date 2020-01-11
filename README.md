@@ -175,6 +175,14 @@ Undefined- These are variables that do not have a value assigned to them.
 Symbol- A symbol is a method for keeping data private and is for internal use only. They are often used to identify object properties. No Symbol is equal to any other symbol. 
 BigInt- A built-in object that allows us to represent large numbers that are to big to be held reliably by the numbers datatype. 
 
+We also have reference types 
+
+Arrays- a list of different elements. Often an ordered collection of data. 
+Object- a key value pairing. Often unorder collection of data.
+Function- a bit of reuseable code. 
+
+Example of Arrays, Objects and Functions can be found in my answers to later questions. 
+
 This answer can be viewed from lines 72-95 in my programmingsolutions.js file 
 
 ![image](./images/Q9.DATATYPES.png)
@@ -201,6 +209,7 @@ besides these methods, we can also manipulate our arrays through the use of our 
 
 For answer to this question please look at programmingsolutions line 98 to 169. 
 ####Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
 
 
 ####Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
