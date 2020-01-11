@@ -182,7 +182,24 @@ This answer can be viewed from lines 72-95 in my programmingsolutions.js file
 
 ####Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+Arrays are just a collection of values. We can add different datatypes within our arrays. Arrays are indexed, and this helps us to be able to mainpulate our arrays. 
 
+We can use a number of the predefined methods of JavaScript to helps us manipulate arrays. Here are some of the common one's and what they allow us to do. 
+
+.push - adds element to the end of an array
+.pop - removes element from the end of the array
+.shift -  removes element from the start of the array
+.unshift - removes element from the end of the array
+concat - used to merge two or more arrays
+reverse - mutates original array, doesn't make a copy reverse original content.
+join - creates a string from an array. Taken an array and spits out a string. 
+slice- take a portion of an array and makes a new array with it. 
+splice- either removes element, replaces elements or adds new element to array.
+.map- creates a new array with results of calling a function for every element in the array. 
+
+besides these methods, we can also manipulate our arrays through the use of our loops and our functions. 
+
+For answer to this question please look at programmingsolutions line 98 to 169. 
 ####Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 
@@ -190,6 +207,30 @@ This answer can be viewed from lines 72-95 in my programmingsolutions.js file
 
 
 ####Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #####SOURCES 
 1. https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/

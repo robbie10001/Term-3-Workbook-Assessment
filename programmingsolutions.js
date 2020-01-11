@@ -71,7 +71,6 @@ console.log(notANumber);
 
 //Q9. Explain data types, using examples from the JavaScript programming language
 
-
 let thisIsAString = "Hello World"; 
 console.log(typeof thisIsAString); //string
 
@@ -93,8 +92,6 @@ console.log(typeof thisIsASymbol); //symbol
 let thisIsBigInt = BigInt(1000000000 ^ 1000000000);
 console.log(typeof thisIsBigInt) // BigInt 
 
-
-
 /*
 //Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
@@ -102,6 +99,79 @@ console.log(typeof thisIsBigInt) // BigInt
 HD
 Demonstrates an extensive ability to manipulate arrays
 */
+//We create an array called the bestYearsOfMyLife
+//The array contains three numbers 2000,2004,2008
+let bestYearsOfMyLife = [
+    2000,
+    2004,
+    2008
+];
+//We use the inbuild function .push to add the number 2011 to the end of our array. 
+bestYearsOfMyLife.push(2011)
+console.log(bestYearsOfMyLife);
+//we print out the new array: 2000, 2004, 2008, 2011. 
+//we can then use the pop method to remove the last entry. 
+bestYearsOfMyLife.pop()
+console.log(bestYearsOfMyLife)
+//we then print the array and it is back to its orginal elements: 2000,2004,2008
+//we can also change the first element of an array. 
+bestYearsOfMyLife.shift()
+console.log(bestYearsOfMyLife)
+//the .shift method has removed the first year 2000 from our array.
+//That's good because i instead want the first element to be 1990.
+//This was the year of my birth and therefore i assume everyone in the world's favourite year. 
+bestYearsOfMyLife.unshift(1990)
+console.log(bestYearsOfMyLife)
+//our array now holds the values 1990, 2004, 2008
+
+//WE can also join multiple arrays together. 
+//this is good because i have a to do list for Saturday and Sunday and want to make it just a list for the weekend. 
+let toDoSaturday = [
+  "wash car",
+  "continue working on this workbook",
+  "wash the dog"
+]
+
+let toDoSunday = [
+  "finish the workbook",
+  "go to the shops",
+  "bake a cake"
+]
+
+let weekendToDoList = toDoSaturday.concat(toDoSunday);
+console.log(weekendToDoList);
+//we now have a new array called weekendToDoList that contains all the elements of our previous two arrays. 
+
+
+//We can also manipulate our arrays directly, through accessing the index of our array for example.
+let shoppingList = [
+  "soap",
+  "bananas",
+  "oranges",
+  "bread"
+];
+
+//i have a shopping list that contains soap, bananas, oranges and bread.
+//however i just found a loaf of bread, and remembered i actually need some icecream!
+//to change this i access the item with an index of 3 "bread" and change it to "ice cream"
+shoppingList[3] = "ice cream"; 
+console.log(shoppingList);
+//Our array is now, soap, bananas, organges, ice cream. This is much better! 
+
+//lastly, i will show how we can manipulate our arrays using loops. 
+
+for(x in shoppingList) {
+  console.log(shoppingList + " " + x)
+};
+//first iteration = soap,bananas,oranges,ice cream 0
+//second iteraction = soap,bananas,oranges,ice cream 1
+//third iteration = soap,bananas,oranges,ice cream 2
+//fourth iteration = soap,bananas,oranges,ice cream 3
+
+
+
+
+
 
 /*
 Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
@@ -137,7 +207,10 @@ Demonstrates an extensive ability to recognise functions, ranges and classes
 10.0 to >8.0 pts
 D
 */
-Q13 Code Snippet
+//Q13 Code Snippet
+
+
+/*
 class Car {
   constructor(brand) {
     this.carname = brand;
@@ -172,6 +245,6 @@ for (model of models) {
   mycar = new Model(make, model);
   console.log(mycar.show())
 }
-
+*/
 
 
