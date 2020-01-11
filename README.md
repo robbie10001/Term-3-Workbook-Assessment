@@ -153,7 +153,12 @@ The following answer can be, found in my programmingsolutions.js file as the fir
 
 In computer programming, type coercion is the process by which we are able to change an expression from one data type to another. This gives us much more flexibility with the use of our data and allows us to construct more holistic and complex programs. 
 
-We 
+There are two types of data coercison in JavaScript. Implicit and Explicit. 
+
+Implicit coercision is type conversion does implicity by Javascript. 
+
+Explicit coercision is done explicitly in code using the inbuild functions of Javascript such as Number() and String()
+
 The following answer can be, found in my programmingsolutions.js file as the first entry from lines 56 to 70. 
 
 ![image](./images/Q8.TYPECOERSION1.png)
