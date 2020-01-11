@@ -71,7 +71,7 @@ console.log(notANumber);
 
 //Q9. Explain data types, using examples from the JavaScript programming language
 
-//string 
+
 let thisIsAString = "Hello World"; 
 console.log(typeof thisIsAString); //string
 
@@ -92,6 +92,86 @@ console.log(typeof thisIsASymbol); //symbol
 
 let thisIsBigInt = BigInt(1000000000 ^ 1000000000);
 console.log(typeof thisIsBigInt) // BigInt 
+
+
+
+/*
+//Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+//Demonstrates an ability to manipulate arrays
+HD
+Demonstrates an extensive ability to manipulate arrays
+*/
+
+/*
+Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+#####Demonstrates an ability to manipulate objects
+6.0 to >5.0 pts
+HD
+Demonstrates an extensive ability to manipulate objects
+5.0 to >4.0 pts
+*/
+
+
+/*
+Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
+
+#####Demonstrates an ability to manipulate JSON
+6.0 to >5.0 pts
+HD
+Demonstrates an extensive ability to manipulate JSON
+5.0 to >4.0 pts
+*/
+
+
+
+//Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
+
+/*
+
+PRG1006-4.1 Recognise functions, ranges and classes & PRG1006-4.2 Identify functions, ranges and classes
+12.0 to >10.0 pts
+HD
+Demonstrates an extensive ability to recognise functions, ranges and classes
+10.0 to >8.0 pts
+D
+*/
+Q13 Code Snippet
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it was made in ' + this.model;
+  }
+}
+
+let makes = ["Ford", "Holden", "Toyota"]
+let models = Array.from(new Array(40), (x,i) => i + 1980)
+
+function randomIntFromInterval(min,max) { // min and max included
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
+for (model of models) {
+
+  make = makes[randomIntFromInterval(0,makes.length-1)]
+  model = models[randomIntFromInterval(0,makes.length-1)]
+    
+  mycar = new Model(make, model);
+  console.log(mycar.show())
+}
 
 
 
