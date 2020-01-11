@@ -139,10 +139,11 @@ Dearest of stern preceptors, i beg thee, take a break presently to admire some w
 
 Now back to the  assessment, 
 
-
-
 ####Q7. Explain control flow, using an example from the JavaScript programming language
 
+Control flow is the method programmers use to control the order in which are statements, functions and instructions are exectued and or evaluated. We can look at control flow as a road, with different choices stemming from this road based on which path our program ends up taking. For example, 
+
+The following answer can be, found in my programmingsolution.js file as the first entry from lines 1 to 56. 
 
 ####Q8. Explain type coercion, using examples from the JavaScript programming language
 
