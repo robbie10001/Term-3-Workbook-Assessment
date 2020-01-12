@@ -207,8 +207,13 @@ splice- either removes element, replaces elements or adds new element to array.
 
 besides these methods, we can also manipulate our arrays through the use of our loops and our functions. 
 
-For answer to this question please look at programmingsolutions line 98 to 169. 
+![image](./images/Q10.ARRAYS1.png)
+![image](./images/Q10.ARRAYS2.png)
+![image](./images/Q10.ARRAYS3.png)
+
+For answer to this question please look at programmingsolutions.js line 98 to 169. 
 ####Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
+
 
 
 
