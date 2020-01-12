@@ -220,11 +220,15 @@ Objects are really useful when we want to store groups of pieces of data togethe
 ![image](./images/Q11.OBJECTS1.png)
 ![image](./images/Q11.OBJECTS2.png)
 
-For the answer to this question, place look at programmingsolutsions.js lines 170-217 
-
+For the answer to this question, please look at programmingsolutsions.js lines 170-217 
 
 ####Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+Javascript Object Notation, is a way for storing and transmitting data. We often use JSON when we sent data from a server to a webpage. In JSON, data is held in name/pair values (the same as an object). We often want to read data from a web server, and display this data on a web page. See coding solutions for an example of this. 
+
+![image](./images/Q12.JSON1.png)
+
+for the answer to this question, please look at programmingsolutions.js lines 218-234. 
 
 ####Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
 

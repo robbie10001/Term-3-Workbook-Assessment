@@ -209,40 +209,32 @@ console.log(Object.values(ScienceFictionMoviesRatings))//this logs, 4, 8, 5, 6, 
 
 //We can also delete elements within our object. 
 
-console.log("---------BREAK--------")
 delete ScienceFictionMoviesRatings.inception; //THIS REMOVES INCEPTION FROM OUR OBJECT
 delete ScienceFictionMoviesRatings["firefly"]; //THIS REMOVES FIREFLY FROM OUR OBJECT
 console.log(ScienceFictionMoviesRatings)
 
+
 /*
-
-
 Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
-
-#####Demonstrates an ability to manipulate JSON
-6.0 to >5.0 pts
-HD
-Demonstrates an extensive ability to manipulate JSON
-5.0 to >4.0 pts
 */
 
+let coderAcademyClass = `{ "teachers" : [` +
+  `{ "firstName":"Garett", "lastName":"Blakenship"},` +
+  `{ "firstName":"Bruce", "lastName":"McClure"}]}`;
 
+//we can then use the JS function JSON.parse() to convert this into a JS object.
 
-//Q13. For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes
+let coderFastTrackTeachers = JSON.parse(coderAcademyClass); 
+console.log(coderFastTrackTeachers)//this returns a javascript object, which was originally JSON. 
+
+//we can also manipulate JSON through the use of JSON.strigify() Method.
+
+let number = 50; //this creates a number with the value of 50. 
+  return JSON.stringify(number);//this converts the number 50 to the string "50"
+  
 
 /*
-
-PRG1006-4.1 Recognise functions, ranges and classes & PRG1006-4.2 Identify functions, ranges and classes
-12.0 to >10.0 pts
-HD
-Demonstrates an extensive ability to recognise functions, ranges and classes
-10.0 to >8.0 pts
-D
-*/
 //Q13 Code Snippet
-
-
-/*
 class Car {
   constructor(brand) {
     this.carname = brand;
