@@ -211,10 +211,16 @@ besides these methods, we can also manipulate our arrays through the use of our 
 ![image](./images/Q10.ARRAYS2.png)
 ![image](./images/Q10.ARRAYS3.png)
 
-For answer to this question please look at programmingsolutions.js line 98 to 169. 
+For answer to this question please look at programmingsolutions.js lines 98 to 169. 
+
 ####Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
+Objects are really useful when we want to store groups of pieces of data together. Unlike with arrays, we can access our objects through a label. Objects are simply key-value pairings. We can use these keys to access our objects. We can store heaps of different datatypes within our objects. We can alter objects through the use of arrays and objects can be destructed given that we define our keys. 
 
+![image](./images/Q11.OBJECTS1.png)
+![image](./images/Q11.OBJECTS2.png)
+
+For the answer to this question, place look at programmingsolutsions.js lines 170-217 
 
 
 ####Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language

@@ -95,9 +95,6 @@ console.log(typeof thisIsBigInt) // BigInt
 /*
 //Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
-//Demonstrates an ability to manipulate arrays
-HD
-Demonstrates an extensive ability to manipulate arrays
 */
 //We create an array called the bestYearsOfMyLife
 //The array contains three numbers 2000,2004,2008
@@ -168,23 +165,58 @@ for(x in shoppingList) {
 //third iteration = soap,bananas,oranges,ice cream 2
 //fourth iteration = soap,bananas,oranges,ice cream 3
 
-
-
-
-
-
 /*
+
 Q11. Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language
 
-#####Demonstrates an ability to manipulate objects
-6.0 to >5.0 pts
-HD
-Demonstrates an extensive ability to manipulate objects
-5.0 to >4.0 pts
 */
+//We can create objects in JavaScript using the following Syntax
+//here we have created an object which contains ratings to a number of science fiction movies. 
+let ScienceFictionMoviesRatings = {
+    "stargate": 9,
+    "startrek": 8,
+    "starwars": 5,
+    "firefly": 8, 
+    "inception": 7
+};
 
+//WE can access elements within our object through either dot notion or bracket notation.
+console.log(ScienceFictionMoviesRatings.firefly) //This prints out 8. 
+console.log(ScienceFictionMoviesRatings["stargate"]);//this prints out 9. 
+
+//we can alter the values of our objects using the following methods. 
+ScienceFictionMoviesRatings.stargate = 4; 
+console.log(ScienceFictionMoviesRatings.stargate) //stargate's rating is now 4.
+ScienceFictionMoviesRatings["inception"] = 5;
+console.log(ScienceFictionMoviesRatings["inception"]) //the rating for inception is now 5. 
+
+//We can also add elements to our objects.
+ScienceFictionMoviesRatings["Cloud Atlas"] = 7.5;
+console.log(ScienceFictionMoviesRatings); //cloud atlas is added to the end of the object with a rating of 7.5 
+ScienceFictionMoviesRatings.Mars = 8;
+console.log(ScienceFictionMoviesRatings)// mars is added to the end of the object with a rating of 8
+//WE can also update our properties 
+ScienceFictionMoviesRatings.Mars++;  //the rating for Mars has gone from 8 to 9. 
+ScienceFictionMoviesRatings["firefly"] -= 2; //the rating for firefly has gone from 8 to 6. 
+console.log(ScienceFictionMoviesRatings)
+
+//We can also use helper methods in order to alter our objects. 
+
+//For example we can gain access to either the keys or the values of all the objects within our object.
+
+console.log(Object.keys(ScienceFictionMoviesRatings)) //this logs, stargate, starwars, startrek, firefly, inception, Cloud Atlas, Mars
+console.log(Object.values(ScienceFictionMoviesRatings))//this logs, 4, 8, 5, 6, 5, 7, 5, 9 
+
+//We can also delete elements within our object. 
+
+console.log("---------BREAK--------")
+delete ScienceFictionMoviesRatings.inception; //THIS REMOVES INCEPTION FROM OUR OBJECT
+delete ScienceFictionMoviesRatings["firefly"]; //THIS REMOVES FIREFLY FROM OUR OBJECT
+console.log(ScienceFictionMoviesRatings)
 
 /*
+
+
 Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 #####Demonstrates an ability to manipulate JSON
