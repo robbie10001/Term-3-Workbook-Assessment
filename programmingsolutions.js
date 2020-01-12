@@ -233,42 +233,9 @@ let number = 50; //this creates a number with the value of 50.
   return JSON.stringify(number);//this converts the number 50 to the string "50"
   
 
-/*
-//Q13 Code Snippet
-class Car {
-  constructor(brand) {
-    this.carname = brand;
-  }
-  present() {
-    return 'I have a ' + this.carname;
-  }
-}
 
-class Model extends Car {
-  constructor(brand, mod) {
-    super(brand);
-    this.model = mod;
-  }
-  show() {
-    return this.present() + ', it was made in ' + this.model;
-  }
-}
 
-let makes = ["Ford", "Holden", "Toyota"]
-let models = Array.from(new Array(40), (x,i) => i + 1980)
 
-function randomIntFromInterval(min,max) { // min and max included
-    return Math.floor(Math.random()*(max-min+1)+min);
-}
 
-for (model of models) {
-
-  make = makes[randomIntFromInterval(0,makes.length-1)]
-  model = models[randomIntFromInterval(0,makes.length-1)]
-    
-  mycar = new Model(make, model);
-  console.log(mycar.show())
-}
-*/
 
 
